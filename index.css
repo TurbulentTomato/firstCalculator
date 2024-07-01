@@ -49,6 +49,7 @@ div{
     
     border: 2px double blue;
     width: 50%;
+    min-height: 500px;
     height: 50vh;
     min-width: 400px;
     margin: 0px auto;
