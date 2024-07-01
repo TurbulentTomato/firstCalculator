@@ -31,6 +31,7 @@ let calc = {
         }
     },
     updateOperator: function () {
+        isAns = false
         if (calc.buttonId == "add") {
             calc.resultDisplay.textContent = "+"
         } else if (calc.buttonId == "subtract"){
