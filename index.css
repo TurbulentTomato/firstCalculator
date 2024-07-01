@@ -1,0 +1,60 @@
+body{
+    align-items: center;
+    text-align: center;    
+    box-sizing: 90px;
+    min-width: 400px;
+}
+
+button{
+    width: 17%;
+    height: 17%;
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    border: none;
+    color: white;
+    background-color: gray;
+    border-radius: 3px;
+}
+
+button:active{
+    color: gray;
+    background-color: white;
+}
+
+#all-clear{
+    background-color: orangered;
+    color: white;
+}
+
+#all-clear:active{
+    color: orangered;
+    background-color: white;
+}
+
+p{
+    border: 2px solid gray;
+    height: 25px;
+    border-radius: 3px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    text-align: right;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+div{
+    
+    border: 2px double blue;
+    width: 50%;
+    height: 30em;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#history{
+    color: grey;
+}
